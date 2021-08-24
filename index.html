@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/css.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h2>Calculatrice</h2>
+    <div id="containerPrincipale">
+      <div id="containerAffichage">
+        <input name="affichage" id="affichage2" /><br />
+        <input name="affichage" id="affichage" />
+      </div>
+
+      <div id="containerSecondaire">
+        <div id="container1">
+          <div id="container1bis">
+            <button onclick="afficher('(')">(</button>
+            <button onclick="afficher(')')">)</button>
+            <button onclick="afficher('%')">%</button>
+            <button onclick="effacer()">c</button>
+          </div>
+        </div>
+        <div id="container2">
+          <button onclick="afficher('7')">7</button>
+          <button onclick="afficher('8')">8</button>
+          <button onclick="afficher('9')">9</button>
+          <button onclick="afficher('*')">X</button>
+        </div>
+        <div id="container3">
+          <button onclick="afficher('4')">4</button>
+          <button onclick="afficher('5')">5</button>
+          <button onclick="afficher('6')">6</button>
+          <button onclick="afficher('-')">-</button>
+        </div>
+        <div id="container4">
+          <button onclick="afficher('1')">1</button>
+          <button onclick="afficher('2')">2</button>
+          <button onclick="afficher('3')">3</button>
+          <button onclick="afficher('+')">+</button>
+        </div>
+        <div id="container5">
+          <button onclick="afficher('.')">.</button>
+          <button onclick="afficher('0')">0</button>
+          <button onclick="afficher('/')">/</button>
+          <button onclick="calculer()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="Scripts/Monjs.js"></script>
+  </body>
+</html>

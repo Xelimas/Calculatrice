@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'StyleScripts-Regular';
+  src: url(../fonts/StyleScript-Regular.ttf);
+ }
+body {
+  background-color: gray;
+  font-family: 'StyleScripts-Regular';
+}
+button {
+  background-color: beige;
+  border-radius: 1em;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: 'StyleScripts-Regular';
+  font-size: 1.1em;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+h2{
+  text-align: center;
+}
+#containerPrincipale{
+  border-style: solid;
+  border-radius: 1em;
+  box-shadow: black 8px 10px 2px;
+  margin: auto;
+  width: 200px;
+  height: 310px;
+  padding: 15px;
+}
+#containerSecondaire {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  height: 250px;
+  
+}
+#container1 {
+  display: flex;
+  flex-direction: row;
+}
+#container1bis {
+  display: flex;
+}
+
+#container2 {
+  display: flex;
+}
+
+#container3 {
+  display: flex;
+}
+
+#container4 {
+  display: flex;
+}
+
+#container5 {
+  display: flex;
+}
+#containerAffichage{
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#affichage2{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 30px;
+  font-size: 1.42em;
+  width: 200px;
+}
+#affichage {
+  margin-top: 5px;
+}
